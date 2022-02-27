@@ -15,16 +15,14 @@ A line chart was plotted to show the Theater Outcomes for different months.
 
 ### Analysis of Outcomes Based on Goals
 A new table created and goal ranges were typed in. I used text to column to separate the lower and uppper limits for each range. Then used COUNTIFS function , which I had to read the documentation online,  to calculate the requested values in each column.
-At the end, a line chart was plotted to see the Outcomes based on Goal and it shown below: 
+At the end, a line chart was plotted to see the Outcomes based on Goal and it's shown below: 
 
-![Outcomes_Based_on_Goal.png](resources/Outcomes_Based_on_Goal.png)
+![Outcomes_Based_on_Goal.png](Outcomes_Based_on_Goal.png)
 
 ### Challenges and Difficulties Encountered
 There were few challenges/difficulties.
 - The first one was inability to sort properly. Everytime I tried to sort the rows, the columns were sorted. I asked a collegue for help and learned that to sort the rows, a single cell needs to be selected and the sort operation will sort all the rows in the same column.
-- The second probelm was that the row labels in Theater outcomes by launch date sheet should have been in month. However, the displayed was by year/month. So I read the documentation online and learned about grouping. 
-
-- My Outcomes based on Goal plot doesnt match what posted on website. I verified the calculation by manually filtering the data and a quick check on one goal range. Once I made sure the calculation is correct, I reached out to TAs to confirm the result.
+- The second probelm was that the row labels in Theater outcomes by launch date sheet should have been in month. However, the displayed data was by year/month. So I read the documentation online and learned about grouping. 
 
 - During typing the report, there was a difficutly in linking the images. I figured out that if there is space in the naming, then it cannot be linked properly. I renamed the images by replacing space with "_". ( I used visual studio code to preview markdown)
 
@@ -33,9 +31,9 @@ There were few challenges/difficulties.
     - *It looks like campaigns starting in May perfrom better than any other launch date.  Successfulness slowly tapers down towards the end of the year.* 
     - *Number of failed or canceled campaigns realtively stays constant throughout the year. December is the worse month start a campaign*
 - **What can you conclude about the Outcomes based on Goals?**
-    - *The percentage of successful campaigns decreases as fund raising goal rises.*
+    - *The percentage of successful campaigns decreases asthe fund raising goal rises. (it has a negative trend)*
 - **What are some limitations of this dataset?**
-    - *one thing that's missing from the dataset is the way the campaigns were run or how each campaign found the backers. Also, it would be a nice to have a column as why the failed campaigns didn't perform as expected*
+    - *one thing that's missing from the dataset is the way the campaigns were run or how each campaign found their backers. Also, it would be nice to have a column as why the failed campaigns didn't perform as expected*
 - **What are some other possible tables and/or graphs that we could create?**
     - *it would be interesting to know in which category the pledged amount was higher. In otherwords, in what category people are more willing to pay.*
     - *number of backers vs category and subcategory is also interesting.*
